@@ -40,6 +40,12 @@ header {
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header h2 {
+  text-align: center;
 }
 
 .card-header::after {
